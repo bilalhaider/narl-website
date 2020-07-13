@@ -1,6 +1,5 @@
 header {
-  background: -webkit-gradient(linear, left top, left bottom, from(#846b6b), to(#685bd6));
-  background: linear-gradient(#846b6b, #685bd6);
+  background: #2e3192;
 }
 
 header .fullbar {
@@ -34,6 +33,22 @@ header .nav-item .outer .link a {
 
 .navbar .left_menu {
   margin-left: auto;
+}
+
+.carousel .carousel-inner .carousel-caption {
+  position: absolute;
+  top: 80px;
+  left: 0%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel .carousel-inner .carousel-item h1 {
+  color: black;
+  font-weight: 700;
 }
 
 section {
@@ -72,8 +87,7 @@ section.news {
 }
 
 footer {
-  background: -webkit-gradient(linear, left top, left bottom, from(#846b6b), to(#685bd6));
-  background: linear-gradient(#846b6b, #685bd6);
+  background: #2e3192;
   text-align: center;
   color: white;
 }
