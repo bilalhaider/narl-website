@@ -12,6 +12,18 @@ header .fullbar li.work-time {
   margin-top: 8px;
 }
 
+header .nav-item .fab {
+  font-size: 18px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 16px;
+  margin-left: 20px;
+}
+
+header .nav-item .social-links {
+  margin-top: 12px;
+}
+
 header .nav-item .outer {
   display: inline-block;
 }
@@ -37,13 +49,13 @@ header .nav-item .outer .link a {
 
 .carousel .carousel-inner .carousel-caption {
   position: absolute;
-  top: 80px;
-  left: 0%;
+  top: 330px;
+  left: 10%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: center;
+  text-align: left;
 }
 
 .carousel .carousel-inner .carousel-item h1 {
