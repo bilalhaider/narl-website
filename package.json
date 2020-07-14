@@ -1,0 +1,19 @@
+{
+  "name": "narl-website",
+  "version": "1.0.0",
+  "description": "Public website for NARL Lab at LUMS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalhaider/narl-website.git"
+  },
+  "author": "Bilal Haider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilalhaider/narl-website/issues"
+  },
+  "homepage": "https://github.com/bilalhaider/narl-website#readme"
+}
