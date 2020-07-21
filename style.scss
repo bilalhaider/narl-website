@@ -1,0 +1,107 @@
+header {
+    background: #2e3192;
+    .fullbar {
+        display: inline-block;
+        li.work-time {
+            margin-left: 0px;
+            color: white;
+            margin-top: 8px;
+        }
+    }
+    .nav-item{
+        .fab {
+            font-size: 18px;
+            color: white;
+            padding-top: 15px;
+            padding-left: 16px;
+            margin-left: 20px;
+            
+        }
+        .social-links {
+                margin-top: 12px;
+            }
+        .outer {
+            display: inline-block;
+            .icon {
+                float: left;
+                margin-top: 15px;
+                color: white;
+            }
+            .link {
+                float: right;
+                a{
+                    color: white;
+                    margin-top: 5px;
+                }
+            }
+            
+        }
+    }
+}
+
+
+.navbar .left_menu {
+    margin-left: auto;
+}
+
+.carousel {
+    .carousel-inner{
+        .carousel-caption {
+            position: absolute;
+            top: 330px;
+            left: 10%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: left ;
+        }
+        .carousel-item h1 {
+            color: black;
+            font-weight: 700;
+        }
+    }
+} 
+
+section {
+        padding: 5% 0px;
+        .sec-title {
+            text-align: center;
+            margin-bottom: 5%;
+        }
+            .separator {
+                border: 1px solid;
+                width: 26%;
+                margin-left: 37%;
+                margin-top: 20px;
+            }  
+        .shadow{
+            -webkit-box-shadow: 0px 0px 4px 0px rgba(77,77,77,1);
+            -moz-box-shadow: 0px 0px 4px 0px rgba(77,77,77,1);
+            box-shadow: 0px 0px 4px 0px rgba(77,77,77,1);
+            border-radius: 0px;
+            height: 950px;
+        }
+        .partner_img {
+            height: 200px;
+        }
+}
+
+
+section.affiliation {
+    border-top: 3px solid #e8e8e8;
+}
+section.news {
+    background: #f5f5f5;
+}
+footer{
+    background: #2e3192;
+    text-align: center;
+    color: white;
+    .copyright {
+        padding: 16px 0px;
+        a{
+            color: white;
+        }
+    }
+}
