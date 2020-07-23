@@ -216,61 +216,21 @@
                     </div>
                 </div>
             </div>
+         
             <div class="row">
+                
+                {% for area in collections.researchareas %}
                 <div class="col-sm-4">
                     <div class="card shadow">
-                        <img src="images/themes/theme3.jpg" class="card-img-top card-img" alt=" ...">
+                        <img src="{{ area.url | url }}/{{ area.data.image }}" class="card-img-top card-img" alt=" ...">
                         <div class="card-body">
-                            <h5 class="card-title">High Water Efficiency</h5>
-                            <p class="card-text">Pakistan is expected to face droughtas early as 2025 yet our
-                                waterresource planning lags far behind theinitiatives needed to mitigate andadapt to
-                                this alarming reality. AtNARL, we are developing anddeploying state of the art
-                                technologyto guide appropriate action in watermanagement from supply based todemand
-                                based decision making. Thisinvolves studying irrigationwaterways, monitoring
-                                groundwaterconsumption and bridging the gapbetween agricultural, industrial andurban
-                                water utilization practices andsustainable water usage.</p>
-
+                            <h5 class="card-title">{{ area.data.title }}</h5>
+                            <p class="card-text">{% shortened area.templateContent %}</p>                                
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-4">
-                    <div class="card shadow">
-                        <img src="images/themes/theme1.jpg" class="card-img-top card-img" alt=" ...">
-                        <div class="card-body">
-                            <h5 class="card-title">Reliable Crop Monitoring</h5>
-                            <p class="card-text">As a result of climate change andlimited water
-                                availability,conventional agricultural practices inPakistan are no longer
-                                optimal.Therefore, there is a need to monitornutrient demand and deciency, re-evaluate
-                                suitability of crops forcultivation and susceptibility of cropsto diseases. As a result,
-                                NARLresearchers are deploying the powerof GIS, drones, in-situ sensors andarticial
-                                intelligence to spatially andtemporally map and study Pakistan’sagro-ecological zones in
-                                order tooptimize the agricultural farm input,reduce costs, increase crop yield,promote
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="card shadow">
-                        <img src="images/themes/theme2.jpg" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Low Environment Footprint</h5>
-                            <p class="card-text">Water pollution is an added stress onthe availability of water
-                                foragricultural, industrial and urbanneeds. NARL initiatives aim toimprove water
-                                management throughmonitoring water quality and trashpollution in fresh water streams
-                                bydeploying articial intelligence andIoT backed sensor network acrossPakistan.Pakistan’s
-                                forest cover area is only 5%of the total land area and underconstant threat with
-                                annualdeforestation rate of 1.5% due tourbanization and illegal logging. Thisis
-                                destroying habitat and leading tosoil erosion. At NARL, researchers aredeveloping
-                                knowledge managementdatabase system powered by IoT,remote sensing and
-                                articialintelligence to monitor our preciousforest resources and encourageevidence based
-                                decision making andreforestation techniques.</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+                {% endfor %}
 
         </div>
     </section>
@@ -306,50 +266,21 @@
                 </div>
             </div>
             <div class="row">
+
+                {% for news in collections.news %}
                 <div class="col-4">
                     <div class="card">
-                        <img src="images/news/news1.jpg" class="card-img-top" alt="...">
+                        <img src="{{ news.url | url }}/{{ news.data.image }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">The 5th Annual Workshop on Precision Agriculture andForestry held at
-                                LUMS
-                                (/news/general-news/5th-annual-workshop-precision-agriculture-and-forestry-held-lums-0)The
-                                5th Annual Workshop on Precision Agriculture and Forestry (WPAF) was held at the Syed
-                                Babar Ali School of Scienceand Engineering... Read More
-                                (/news/general-news/5th-annual-workshop-precision-agriculture-and-forestry-held-lums-0)
+                            <p class="card-text">{% shortened news.templateContent %}
                             </p>
+                            <a href="{{ news.url }}">Read more</a>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
 
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src=" images/news/news2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">WIT Researcher Attends Underwater AcousticTechnology Workshop in China
-                                (/news/general-news/wit-researcher-attends-underwater-acoustic-technology-workshop-china)Taking
-                                a lead from the One Belt One Road initiative, The China Pakistan Marine Information
-                                Workshop (CPMI) was held inHarbin... Read More
-                                (/news/general-news/wit-researcher-attends-underwater-acoustic-technology-workshop-china)
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="images/news/news3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">LUMS WIT Researchers Present at 44th AnnualConference of the IEEE
-                                Industrial Electronics Society(IES) in USA
-                                (/news/general-news/lums-wit-researchers-present-44th-annual-conference-ieee-industrial-electronics-0)The
-                                LUMS Water Informatics and Technology (WIT) Centre researchers, Abubakr Muhammad, Zahoor
-                                Ahmad and RubabKhalid presented their... Read More
-                                (/news/general-news/lums-wit-researchers-present-44th-annual-conference-ieee-industrial-electronics-0)
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
