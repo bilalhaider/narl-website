@@ -1,6 +1,5 @@
 module.exports = function (eleventyConfig) {
 
-
     eleventyConfig.addShortcode("shortened", function (content) {
 
         const maxLength = 300;
@@ -13,4 +12,13 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.setTemplateFormats("html,liquid,md,css,jpg,png");
+    
+    return {
+        dir: {
+            input: 'data',
+            includes: '',
+            layouts: '../layouts',
+            templateFormats: ['liquid', 'html', 'jpg', 'png', 'md']
+        }
+    };
 };
