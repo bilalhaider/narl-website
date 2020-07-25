@@ -48,6 +48,9 @@ section .partner_img {
 section.affiliation {
   border-top: 3px solid #e8e8e8;
 }
+.affiliation .crs-img {
+  text-align: center;
+}
 
 section.news {
   background: #f5f5f5;
