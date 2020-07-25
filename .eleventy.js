@@ -11,14 +11,14 @@ module.exports = function (eleventyConfig) {
         return content;
     });
 
-    eleventyConfig.setTemplateFormats("html,liquid,md,css,jpg,png");
+    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.setTemplateFormats("html,liquid,md,jpg,png");
     
     return {
         dir: {
             input: 'data',
             includes: '',
-            layouts: '../layouts',
-            templateFormats: ['liquid', 'html', 'jpg', 'png', 'md']
+            layouts: '../layouts'
         }
     };
 };
