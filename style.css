@@ -1,48 +1,3 @@
-header {
-  background: #2e3192;
-}
-
-header .fullbar {
-  display: inline-block;
-}
-
-header .fullbar li.work-time {
-  margin-left: 0px;
-  color: white;
-  margin-top: 8px;
-}
-
-header .nav-item .fab {
-  font-size: 18px;
-  color: white;
-  padding-top: 15px;
-  padding-left: 16px;
-  margin-left: 20px;
-}
-
-header .nav-item .social-links {
-  margin-top: 12px;
-}
-
-header .nav-item .outer {
-  display: inline-block;
-}
-
-header .nav-item .outer .icon {
-  float: left;
-  margin-top: 15px;
-  color: white;
-}
-
-header .nav-item .outer .link {
-  float: right;
-}
-
-header .nav-item .outer .link a {
-  color: white;
-  margin-top: 5px;
-}
-
 .navbar .left_menu {
   margin-left: auto;
 }
@@ -100,15 +55,28 @@ section.news {
 
 footer {
   background: #2e3192;
-  text-align: center;
   color: white;
 }
 
+footer .footer-section {
+  padding: 30px 0px;
+}
+
+footer .footer-section a {
+  color: white;
+}
 footer .copyright {
-  padding: 16px 0px;
+  font-size: 19px;
 }
-
-footer .copyright a {
-  color: white;
+footer .social {
+  display: inline-block;
+  float: right;
+}
+footer .social .nav-item.social-links {
+  display: inline-block;
+  padding-left: 20px;
+}
+footer .social .nav-item.social-links .fab {
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

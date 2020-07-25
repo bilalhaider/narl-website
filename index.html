@@ -17,92 +17,6 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="fullbar">
-                <ul class="nav pull-left">
-                    <li class="nav-item">
-                        <div class="outer">
-                            <div class="icon">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
-                                </svg>
-                            </div>
-                            <div class="link">
-                                <a class="nav-link active" href="#">+92 42 3560 8000</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="outer">
-                            <div class="icon">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                                </svg>
-                            </div>
-                            <div class="link">
-                                <a class="nav-link active" href="">https://narl.lums.edu.pk/research-projects</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="outer">
-                            <div class="icon">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
-                                </svg>
-                            </div>
-                            <div class="link">
-                                <a class="nav-link active">
-                                    Working Hours - Mon - Fri: 9:30 - 18:30
-                                </a>
-                            </div>
-                        </div>
-
-                    </li>
-                    <li class="nav-item social-links">
-                        <a href="https://www.facebook.com/lahoreuniversityofmanagementsciences
-                        ">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li href="" class="nav-item social-links">
-                        <a href="https://twitter.com/lifeatlums">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item social-links">
-                        <a href="https://www.linkedin.com/edu/school?id=15859&trk=edu-cp-title">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item social-links">
-                        <a href="https://www.youtube.com/channel/UCNyztcNIfmZquNp45gf54dg">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item social-links">
-                        <a href="https://www.instagram.com/lifeatlums/">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li> -->
-                </ul>
-
-            </div>
-
-
-        </div>
     </header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -216,21 +130,21 @@
                     </div>
                 </div>
             </div>
-         
+
             <div class="row">
-                
+
                 {% for area in collections.researchareas %}
                 <div class="col-sm-4">
                     <div class="card shadow">
                         <img src="{{ area.url | url }}/{{ area.data.image }}" class="card-img-top card-img" alt=" ...">
                         <div class="card-body">
                             <h5 class="card-title">{{ area.data.title }}</h5>
-                            <p class="card-text">{% shortened area.templateContent %}</p>                                
-                            </div>
+                            <p class="card-text">{% shortened area.templateContent %}</p>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
+            </div>
+            {% endfor %}
 
         </div>
     </section>
@@ -287,9 +201,38 @@
 
     <footer>
         <div class="container">
-            <div class="copyright">
-                <span>2019 © Lahore University of Management Sciences. All Rights Reserved.
+            <div class="footer-section">
+                <span class="copyright">2019 © Lahore University of Management Sciences. All Rights Reserved.
                 </span>
+                <ul class=social>
+
+                    <li class="nav-item social-links">
+                        <a href="https://www.facebook.com/lahoreuniversityofmanagementsciences
+                        ">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li href="" class="nav-item social-links">
+                        <a href="https://twitter.com/lifeatlums">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item social-links">
+                        <a href="https://www.linkedin.com/edu/school?id=15859&trk=edu-cp-title">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item social-links">
+                        <a href="https://www.youtube.com/channel/UCNyztcNIfmZquNp45gf54dg">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item social-links">
+                        <a href="https://www.instagram.com/lifeatlums/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
