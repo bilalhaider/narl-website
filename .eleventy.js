@@ -11,4 +11,6 @@ module.exports = function (eleventyConfig) {
 
         return content;
     });
+
+    eleventyConfig.setTemplateFormats("html,liquid,md,jpg,png");
 };
