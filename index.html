@@ -132,7 +132,6 @@
             </div>
 
             <div class="row">
-
                 {% for area in collections.researchareas %}
                 <div class="col-sm-4">
                     <div class="card shadow">
@@ -143,8 +142,8 @@
                         </div>
                     </div>
                 </div>
+                {% endfor %}
             </div>
-            {% endfor %}
 
         </div>
     </section>
@@ -182,7 +181,7 @@
             <div class="row">
 
                 {% for news in collections.news %}
-                <div class="col-4">
+                <div class="col-sm-4">
                     <div class="card">
                         <img src="{{ news.url | url }}/{{ news.data.image }}" class="card-img-top" alt="...">
                         <div class="card-body">
