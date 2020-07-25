@@ -4,11 +4,11 @@
   "description": "Public website for NARL Lab at LUMS",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --style=compressed src/scss/styles.scss generated/css/styles.css",
-    "watch:eleventy": "eleventy --serve",
+    "sass": "npx sass --style=compressed src/styles/main.scss assets/styles/main.css",
+    "watch:eleventy": "npx eleventy --serve",
     "watch:sass": "npm run sass -- --watch",
     "watch": "npm-run-all sass --parallel watch:*",
-    "build": "npm run sass && eleventy"
+    "build": "npm run sass && npx eleventy"
   },
   "repository": {
     "type": "git",
