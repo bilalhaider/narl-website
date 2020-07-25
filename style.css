@@ -52,7 +52,21 @@ section.affiliation {
   text-align: center;
 }
 
-section.news {
+.stat {
+  text-align: center;
+  border-right: 3px solid darkgray;
+}
+
+.last-column{
+  text-align: center;
+}
+
+.number {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.gray-section {
   background: #f5f5f5;
 }
 
