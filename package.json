@@ -4,10 +4,11 @@
   "description": "Public website for NARL Lab at LUMS",
   "main": "index.html",
   "scripts": {
+    "clean": "npx rimraf _site",
     "sass": "npx sass --style=compressed src/styles/main.scss assets/styles/main.css",
     "watch:eleventy": "npx eleventy --serve",
     "watch:sass": "npm run sass -- --watch",
-    "watch": "npm-run-all sass --parallel watch:*",
+    "watch": "npm-run-all clean sass --parallel watch:*",
     "build": "npm run sass -- --no-source-map && npx eleventy"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
     "sass": "^1.26.10"
   }
 }
