@@ -105,3 +105,4 @@ dist
 
 # Eleventy Generated Site
 _site
+assets/styles/
