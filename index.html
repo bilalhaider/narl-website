@@ -119,36 +119,7 @@
         </a> -->
     </div>
 
-    <section class="themes">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="sec-title">
-                        <!-- <p>What We Do Now</p> -->
-                        <h2>Explore Our Main Themes</h2>
-                        <div class="separator"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                {% for area in collections.researchareas %}
-                <div class="col-sm-4">
-                    <div class="card shadow">
-                        <img src="{{ area.url | url }}/{{ area.data.image }}" class="card-img-top card-img" alt=" ...">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ area.data.title }}</h5>
-                            <p class="card-text">{% shortened area.templateContent %}</p>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-
-        </div>
-    </section>
-
-    <section class="gray-section">
+    <section class="white-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -186,6 +157,35 @@
                 </div>
 
             </div>
+        </div>
+    </section>
+
+    <section class="gray-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="sec-title">
+                        <!-- <p>What We Do Now</p> -->
+                        <h2>Explore Our Main Themes</h2>
+                        <div class="separator"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                {% for area in collections.researchareas %}
+                <div class="col-sm-4">
+                    <div class="card shadow">
+                        <img src="{{ area.url | url }}/{{ area.data.image }}" class="card-img-top card-img" alt=" ...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ area.data.title }}</h5>
+                            <p class="card-text">{% shortened area.templateContent %}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
         </div>
     </section>
 
@@ -264,6 +264,63 @@
                     </div>
                 </div>
                 {% endfor %}
+
+            </div>
+        </div>
+    </section>
+
+    <section class="event-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="sec-title">
+                        <!-- <p>What We Do Now</p> -->
+                        <h2>Upcoming Events</h2>
+                        <div class="separator"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
