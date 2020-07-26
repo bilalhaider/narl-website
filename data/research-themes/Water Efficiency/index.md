@@ -1,6 +1,6 @@
 ---
 title: High Water Efficiency
-tags: researchareas
+tags: researchthemes
 date: 2020-01-03
 image: main.jpg
 layout: theme.liquid
