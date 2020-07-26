@@ -7,20 +7,38 @@
     .carousel-inner {
 
         .carousel-caption {
+          width:40%;
             position: absolute;
-            top: 330px;
+            top: 125px;
             left: 10%;
             z-index: 10;
             padding-top: 20px;
             padding-bottom: 20px;
             color: #fff;
             text-align: left;
+            h4 {
+              margin-bottom: 0;
+          }
+            .sec_text {
+              font-size: 40px;
+              color: #bb7e45;
+              text-shadow: 3px 2px #00000073;
+              margin-bottom: 0px;
+          }
+          .third_text {
+            font-size: 40px;
+            margin-bottom: 0px;
+            color: #d88537;
+            text-shadow: 3px 2px #00000073;
+        }
+        .forth_text {
+          font-size: 40px;
+          margin-bottom: 0px;
+          color: #e88426;
+          text-shadow: 3px 2px #00000073;
+      }
         }
 
-        .carousel-item h1 {
-            color: black;
-            font-weight: 700;
-        }
     }
 }
 
