@@ -100,7 +100,7 @@
             <div class="carousel-item active">
                 <img src="assets/images/main.jpg" class="d-block w-100 img-responsive" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>National Agricultural Robotics <br> Lab at LUMS</h1>
+                    Technologies for challenges in<p>food security,</p><p>climate change</p><p>water scarcity</p>
                 </div>
             </div>
             <!-- <div class="carousel-item">
@@ -165,21 +165,20 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="sec-title">
-                        <!-- <p>What We Do Now</p> -->
-                        <h2>Explore Our Main Themes</h2>
+                        <h2>Research Themes</h2>
                         <div class="separator"></div>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                {% for area in collections.researchareas %}
+                {% for rtheme in collections.researchthemes %}
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src="{{ area.url | url }}/{{ area.data.image }}" class="card-img-top card-img" alt=" ...">
+                        <img src="{{ rtheme.url | url }}/{{ rtheme.data.image }}" class="card-img-top card-img" alt=" ...">
                         <div class="card-body">
-                            <h5 class="card-title">{{ area.data.title }}</h5>
-                            <p class="card-text">{% shortened area.templateContent %}</p>
+                            <h5 class="card-title">{{ rtheme.data.title }}</h5>
+                            <p class="card-text">{% shortened rtheme.templateContent %}</p>
                         </div>
                     </div>
                 </div>
@@ -191,15 +190,14 @@
 
     <section class="affiliation">
         <div class="container">
-            <!-- <div class="row">
+            <div class="row">
                 <div class="col-sm-12">
-                    <div class="sec-title"> -->
-            <!-- <p>What We Do Now</p> -->
-            <!-- <h2>Sponsors</h2>
+                    <div class="sec-title">
+                        <h2>Partners</h2>
                         <div class="separator"></div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
