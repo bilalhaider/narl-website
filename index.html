@@ -100,7 +100,10 @@
             <div class="carousel-item active">
                 <img src="assets/images/main.jpg" class="d-block w-100 img-responsive" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>National Agricultural Robotics <br> Lab at LUMS</h1>
+                <div class="transparent">
+                    <h4>Technologies for challenges in</h4><span class="sec_text">food security,</span><p class="third_text">climate change</p><p class="forth_text">water scarcity</p
+                </div>
+                </div>
                 </div>
             </div>
             <!-- <div class="carousel-item">
@@ -165,41 +168,124 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="sec-title">
-                        <!-- <p>What We Do Now</p> -->
-                        <h2>Explore Our Main Themes</h2>
+                        <h2>Research Themes</h2>
                         <div class="separator"></div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                {% for area in collections.researchareas %}
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="{{ area.url | url }}/{{ area.data.image }}" class="card-img-top card-img" alt=" ...">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ area.data.title }}</h5>
-                            <p class="card-text">{% shortened area.templateContent %}</p>
+            
+            <div class="crop_monitoring_sec">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/images/crop-monitoring.jpg" class="card-img-top card-img" alt=" ...">
+                            <div class="card-body">
+                                <h5 class="card-title">Reliable Crop Monitoring</h5>
+                                <p class="card-text">As a result of climate change and limited water availability, conventional agricultural practices inPakistan are no longer optimal.Therefore, there is a need to monitornutrient demand and deciency, re-evaluate suitability of crops forcultivation and susceptibility of cropsto diseases. As a result, NARLresearchers are deploying the powerof GIS, drones, in-situ sensors andarticial intelligence to spatially and temporally map and study Pakistan’sagro-ecological zones in order tooptimize the agricultural farm input,reduce costs, increase crop yield,promote</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="project_wrapper">
+                            <div class="img_side">
+                                <img src="assets/images/crop-monitoring.jpg" class="project_img">
+                            </div>
+                        <div class="project_detail">
+                            <h2>Project 1</h2>
+                            <p>As a result of climate change and limited water availability, conventional agricultural practices inPakistan are no longer optimal.Therefore, there is a need to monitornutrient demand and deciency, re-evaluate suitability of crops forcultivation and susceptibility of cropsto diseases.</p>
+                        </div>
+                    </div>
+                     <div class="project_wrapper">
+                        <div class="img_side">
+                            <img src="assets/images/crop-monitoring.jpg" class="project_img">
+                        </div>
+                        <div class="project_detail">
+                            <h2>Project 2</h2>
+                            <p>As a result of climate change and limited water availability, conventional agricultural practices inPakistan are no longer optimal.Therefore, there is a need to monitornutrient demand and deciency, re-evaluate suitability of crops forcultivation and susceptibility of cropsto diseases.</p>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
             </div>
-
+</div>
+        <div class="environment_sec">
+            <div class="row">  
+                <div class="col-sm-8">
+                    <div class="project_wrapper">
+                        <div class="img_side">
+                            <img src="assets/images/e_footprint.jpg" class="project_img">
+                        </div>
+                        <div class="project_detail">
+                            <h2>Project 1</h2>
+                            <p>As a result of climate change and limited water availability, conventional agricultural practices inPakistan are no longer optimal.Therefore, there is a need to monitornutrient demand and deciency, re-evaluate suitability of crops forcultivation and susceptibility of cropsto diseases.</p>
+                        </div>
+                    </div>
+                     <div class="project_wrapper">
+                        <div class="img_side">
+                            <img src="assets/images/crop-monitoring.jpg" class="project_img">
+                        </div>
+                        <div class="project_detail">
+                            <h2>Project 2</h2>
+                            <p>As a result of climate change and limited water availability, conventional agricultural practices inPakistan are no longer optimal.Therefore, there is a need to monitornutrient demand and deciency, re-evaluate suitability of crops forcultivation and susceptibility of cropsto diseases.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/images/e_footprint.jpg" class="card-img-top card-img" alt=" ...">
+                            <div class="card-body">
+                                <h5 class="card-title">Low Environment Footprint</h5>
+                                <p class="card-text">Water pollution is an added stress onthe availability of water foragricultural, industrial and urbanneeds. NARL initiatives aim toimprove water management throughmonitoring water quality and trashpollution in fresh water streams bydeploying articial intelligence andIoT backed sensor network acrossPakistan.Pakistan’s forest cover area is only 5%of the total land area and underconstant threat with annualdeforestation rate of 1.5% due tourbanization and illegal logging. Thisis destroying habitat and leading tosoil erosion. At NARL, researchers aredeveloping knowledge managementdatabase system powered by IoT,remote sensing and articialintelligence to monitor our preciousforest resources and encourageevidence based decision making andreforestation techniques.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="water_sec">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/images/water.jpg" class="card-img-top card-img" alt=" ...">
+                            <div class="card-body">
+                                <h5 class="card-title">High Water Efficiency</h5>
+                                <p class="card-text">Pakistan is expected to face droughtas early as 2025 yet our waterresource planning lags far behind theinitiatives needed to mitigate andadapt to this alarming reality. AtNARL, we are developing anddeploying state of the art technologyto guide appropriate action in watermanagement from supply based todemand based decision making. Thisinvolves studying irrigationwaterways, monitoring groundwaterconsumption and bridging the gapbetween agricultural, industrial andurban water utilization practices andsustainable water usage.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="project_wrapper">
+                            <div class="img_side">
+                                <img src="assets/images/crop-monitoring.jpg" class="project_img">
+                            </div>
+                        <div class="project_detail">
+                            <h2>Project 1</h2>
+                            <p>As a result of climate change and limited water availability, conventional agricultural practices inPakistan are no longer optimal.Therefore, there is a need to monitornutrient demand and deciency, re-evaluate suitability of crops forcultivation and susceptibility of cropsto diseases.</p>
+                        </div>
+                    </div>
+                     <div class="project_wrapper">
+                        <div class="img_side">
+                            <img src="assets/images/crop-monitoring.jpg" class="project_img">
+                        </div>
+                        <div class="project_detail">
+                            <h2>Project 2</h2>
+                            <p>As a result of climate change and limited water availability, conventional agricultural practices inPakistan are no longer optimal.Therefore, there is a need to monitornutrient demand and deciency, re-evaluate suitability of crops forcultivation and susceptibility of cropsto diseases.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
         </div>
     </section>
 
     <section class="affiliation">
         <div class="container">
-            <!-- <div class="row">
+            <div class="row">
                 <div class="col-sm-12">
-                    <div class="sec-title"> -->
-            <!-- <p>What We Do Now</p> -->
-            <!-- <h2>Sponsors</h2>
+                    <div class="sec-title">
+                        <h2>Partners</h2>
                         <div class="separator"></div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -251,19 +337,43 @@
             </div>
             <div class="row">
 
-                {% for news in collections.news %}
+                
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src="{{ news.url | url }}/{{ news.data.image }}" class="card-img-top" alt="...">
+                        <img src="/news/5th Precision Agriculture and Forestry Conference//main.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">{% shortened news.templateContent %}
+                            <p class="card-text"><p>The 5th Annual Workshop on Precision Agriculture and Forestry (WPAF) was held at the Syed Babar Ali School of Science and Engineering on Friday, November 29, 2019. The workshop was organised by the recently-established National Center of Robotics and Automation’s (NCRA) Agricultural Robotics Lab ...
                             </p>
-                            <a href="{{ news.url }}">Read more</a>
+                            <a href="/news/5th Precision Agriculture and Forestry Conference/">Read more</a>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
+                
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="/news/Presentation At 44th IEEE Industrial Electronics//main.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <p class="card-text"><p>The LUMS Water Informatics and Technology (WIT) Centre researchers, Abubakr Muhammad, Zahoor Ahmad and Rubab Khalid presented their work at the 44th Annual Conference of the IEEE Industrial Electronics Society (IES); IECON held in Washington DC from October 21-23, 2018. Their co-authored paper wa...
+                            </p>
+                            <a href="/news/Presentation At 44th IEEE Industrial Electronics/">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="/news/WIT Researcher attends Underwater Acoustic Technology Workshop in China//main.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <p class="card-text"><p>Taking a lead from the One Belt One Road initiative, The China Pakistan Marine Information Workshop (CPMI) was held in Harbin Engineering University, China, with the aim to promote scientific research, training and collaboration between the two countries. This training workshop took place from No...
+                            </p>
+                            <a href="/news/WIT Researcher attends Underwater Acoustic Technology Workshop in China/">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                
 
             </div>
         </div>
@@ -327,12 +437,11 @@
     </section>
 
     <footer>
-        <div class="container">
             <div class="footer-section">
+        <div class="container">
                 <span class="copyright">2019 © Lahore University of Management Sciences. All Rights Reserved.
                 </span>
                 <ul class=social>
-
                     <li class="nav-item social-links">
                         <a href="https://www.facebook.com/lahoreuniversityofmanagementsciences
                         ">
