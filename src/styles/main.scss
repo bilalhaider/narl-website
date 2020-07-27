@@ -74,7 +74,7 @@ section.news {
 }
 .stat {
     text-align: center;
-    border-right: 3px solid darkgray;
+    border-right: 2px solid #ebebeb;
   }
   
   .last-column{
@@ -82,9 +82,13 @@ section.news {
   }
   
   .number {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 500;
   }
+  .label {
+    font-size: 18px;
+    color: #666666;
+}
   
   .gray-section {
     background: #f5f5f5;
@@ -138,4 +142,12 @@ section.news {
               }
         }
       }
+    }
+
+    // Media Query
+
+    @media only screen and (max-width: 600px) {
+      .logo {
+        width: 75%;
+    }
     }
