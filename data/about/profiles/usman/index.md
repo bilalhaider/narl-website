@@ -1,4 +1,6 @@
 ---
+tags: ["people", "JuniorResearchAssistant"]
+layout: "profile"
 profile:
     name: Muhammad Usman Qadeer
     designation: Jr. Remote Sensing Analyst

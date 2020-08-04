@@ -1,4 +1,6 @@
 ---
+tags: ["people", "CoPrincipalInvestigator"]
+layout: "profile"
 profile:
     name: Dr. Ahmed Kamal Nasir
     designation: Assistant Professor

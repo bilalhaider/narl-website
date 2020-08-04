@@ -1,4 +1,6 @@
 ---
+tags: ["people", "TeamLead"]
+layout: "profile"
 profile:
     name: M. Shabbir Hasan
     role: Team Lead

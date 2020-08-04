@@ -1,4 +1,6 @@
 ---
+tags: ["people", "JuniorResearchAssistant"]
+layout: "profile"
 profile:
     name: Mohammad Maaz
     designation: Sr. Year Student

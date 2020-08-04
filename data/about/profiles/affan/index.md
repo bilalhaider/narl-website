@@ -1,4 +1,6 @@
 ---
+tags: ["people", "SeniorResearchAssociate"]
+layout: "profile"
 profile:
     name: Affan Razzaq
     designation: Sr. Electronics Engineer

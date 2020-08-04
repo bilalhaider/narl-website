@@ -1,4 +1,6 @@
 ---
+tags: ["people", "CoPrincipalInvestigator"]
+layout: "profile"
 profile:
     name: Dr. Mian Muhammad Awais
     designation: Professor

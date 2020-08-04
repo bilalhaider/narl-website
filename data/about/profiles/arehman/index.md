@@ -1,4 +1,6 @@
 ---
+tags: ["people", "JuniorResearchAssistant"]
+layout: "profile"
 profile:
     name: Abdul Rehman
     designation: Jr. Electronics Engineer

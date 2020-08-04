@@ -1,4 +1,6 @@
 ---
+tags: ["people", "BusinessDevelopmentManager"]
+layout: "profile"
 profile:
     name: Rabeya Jamshad
     qualification: MS Electrical and Computer Engineering, Georgia Institute of Technology, USA

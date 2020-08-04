@@ -1,4 +1,6 @@
 ---
+tags: ["people", "JuniorResearchAssistant"]
+layout: "profile"
 profile:
     name: Abdul Wahab Amin
     designation: Jr. Machine Learning Engineer

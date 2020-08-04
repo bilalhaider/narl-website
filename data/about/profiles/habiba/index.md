@@ -1,4 +1,6 @@
 ---
+tags: ["people", "SeniorResearchAssociate"]
+layout: "profile"
 profile:
     name: Habiba Saim
     designation: Sr. Software Engineer

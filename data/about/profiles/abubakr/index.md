@@ -1,4 +1,6 @@
 ---
+tags: ["people", "PrincipalInvestigator"]
+layout: "profile"
 profile:
     name: Dr. Abubakr Muhammad
     designation: Associate Professor

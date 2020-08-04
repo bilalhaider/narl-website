@@ -1,0 +1,102 @@
+---
+layout: master.liquid
+---
+
+<section>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-12">Principal Investigator</div>
+            {% for people in collections.PrincipalInvestigator %}
+            <div class="col-sm-12">
+                <div class="description">
+                    <a href="{{people.url}}">
+                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
+                        {{people.data.profile.name}}
+                        {{people.data.profile.designation}}
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+            <div class="col-sm-12">Co-Principal Investigator</div>
+            {% for people in collections.CoPrincipalInvestigator %}
+            <div class="col-sm-12">
+                <div class="description">
+                    <a href="{{people.url}}">
+                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
+                        {{people.data.profile.name}}
+                        {{people.data.profile.designation}}
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+            <div class="col-sm-12">Business Development Managers</div>
+            {% for people in collections.BusinessDevelopmentManager %}
+            <div class="col-sm-12">
+                <div class="description">
+                    <a href="{{people.url}}">
+                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
+                        {{people.data.profile.name}}
+                        {{people.data.profile.designation}}
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+            <div class="col-sm-12">Team Leads</div>
+            {% for people in collections.TeamLead %}
+            <div class="col-sm-12">
+                <div class="description">
+                    <a href="{{people.url}}">
+                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
+                        {{people.data.profile.name}}
+                        {{people.data.profile.designation}}
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+            <div class="col-sm-12">Senior Research Associates</div>
+            {% for people in collections.SeniorResearchAssociate %}
+            <div class="col-sm-12">
+                <div class="description">
+                    <a href="{{people.url}}">
+                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
+                        {{people.data.profile.name}}
+                        {{people.data.profile.designation}}
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+            <div class="col-sm-12">Junior Research Assistants</div>
+            {% for people in collections.JuniorResearchAssistant %}
+            <div class="col-sm-12">
+                <div class="description">
+                    <a href="{{people.url}}">
+                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
+                        {{people.data.profile.name}}
+                        {{people.data.profile.designation}}
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+            <div class="col-sm-12">PhD Students</div>
+            {% for people in collections.PhDStudent %}
+            <div class="col-sm-12">
+                <div class="description">
+                    <a href="{{people.url}}">
+                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
+                        {{people.data.profile.name}}
+                        {{people.data.profile.designation}}
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
