@@ -11,37 +11,26 @@ main {
     .carousel-caption {
       width: 40%;
       position: absolute;
-      top: 125px;
-      left: 10%;
+      top: 18%;
+      left: 20%;
       z-index: 10;
       padding-top: 20px;
       padding-bottom: 20px;
       color: #fff;
       text-align: left;
 
-      h4 {
-        margin-bottom: 0;
-      }
+      .main-banner-text {
+        color: lightgray;
+        font-size: 18pt;
+        font-weight: 500;
+        text-shadow: 0px 0px 10px black;
 
-      .sec_text {
-        font-size: 40px;
-        color: #bb7e45;
-        text-shadow: 3px 2px #00000073;
-        margin-bottom: 0px;
-      }
-
-      .third_text {
-        font-size: 40px;
-        margin-bottom: 0px;
-        color: #d88537;
-        text-shadow: 3px 2px #00000073;
-      }
-
-      .forth_text {
-        font-size: 40px;
-        margin-bottom: 0px;
-        color: #e88426;
-        text-shadow: 3px 2px #00000073;
+        .highlight {
+          font-weight: 700;
+          font-size: 32pt;
+          text-shadow: 2px 2px 2px #00000073;
+          color: #bb7e45;
+        }
       }
     }
   }
