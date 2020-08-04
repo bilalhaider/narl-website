@@ -1,9 +1,9 @@
-
+$min-height:calc(100vh - 186px);
 .navbar .left_menu {
     margin-left: auto;
 }
 main{
-  min-height: 439px;
+  min-height:$min-height ;
 }
 
 .carousel {
