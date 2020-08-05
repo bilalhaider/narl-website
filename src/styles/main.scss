@@ -6,6 +6,38 @@ main {
   min-height: $min-height;
 }
 
+// PeopleList page style start
+
+.role{
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.description{
+    text-align: center;
+  a{
+    color: black;
+    h5{
+      margin-top: .5rem;
+    }
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+// PeopleList page style End
+
+// Profile Page style start
+
+.detail{
+  h5{
+    margin-top: .5rem;
+  }
+}
+
+// Profile Page style end
+
 .carousel {
   .carousel-inner {
     .carousel-caption {

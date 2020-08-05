@@ -1,14 +1,20 @@
 ---
 layout: "master"
 ---
-
-<img src="{{page.url | url}}{{profile.picture}}" />
-
-{{profile.name}}
-{{profile.role}}
-{{profile.designation}}
-{{profile.department}}
-{{profile.qualification}}
-{{profile.email}}
-{{profile.phone}}
-{{profile.bio}}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 detail">
+                <img src="{{page.url | url}}{{profile.picture}}" />
+                <h5>{{profile.name}}</h5>
+                <p>{{profile.role}}</p>
+                {{profile.designation}}
+                {{profile.department}}
+                {{profile.qualification}}
+                {{profile.email}}
+                {{profile.phone}}
+                {{profile.bio}}
+            </div>
+        </div>
+    </div>
+<section>
