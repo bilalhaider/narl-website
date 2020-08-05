@@ -8,19 +8,19 @@ main {
 
 // PeopleList page style start
 
-.role{
+.role {
   font-size: 23px;
   text-align: center;
   margin-bottom: 20px;
 }
-.description{
-    text-align: center;
-  a{
+.description {
+  text-align: center;
+  a {
     color: black;
-    h5{
-      margin-top: .5rem;
+    h5 {
+      margin-top: 0.5rem;
     }
-    &:hover{
+    &:hover {
       text-decoration: none;
     }
   }
@@ -30,9 +30,9 @@ main {
 
 // Profile Page style start
 
-.detail{
-  h5{
-    margin-top: .5rem;
+.detail {
+  h5 {
+    margin-top: 0.5rem;
   }
 }
 
