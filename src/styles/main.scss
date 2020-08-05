@@ -18,6 +18,9 @@ main {
   text-align: center;
   a {
     color: black;
+    img{
+      height: 150px;
+    }
     h5 {
       margin-top: 0.5rem;
     }
@@ -31,16 +34,10 @@ main {
 
 // Profile Page style start
 
-<<<<<<< HEAD
 .detail{
   text-align: center;
   h5{
     margin-top: .5rem;
-=======
-.detail {
-  h5 {
-    margin-top: 0.5rem;
->>>>>>> e1161924d3edc7861d19de107ef21ab5cff27bd5
   }
 }
 
