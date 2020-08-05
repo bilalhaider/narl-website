@@ -8,24 +8,20 @@ main {
 
 // PeopleList page style start
 
-.role{
+.role {
   font-size: 23px;
   text-align: center;
   margin-bottom: 20px;
   font-weight: 700;
 }
-.description{
-    text-align: center;
-
-  a{
+.description {
+  text-align: center;
+  a {
     color: black;
-    img {
-      height: 150px;
+    h5 {
+      margin-top: 0.5rem;
     }
-    h5{
-      margin-top: .5rem;
-    }
-    &:hover{
+    &:hover {
       text-decoration: none;
     }
   }
@@ -35,10 +31,16 @@ main {
 
 // Profile Page style start
 
+<<<<<<< HEAD
 .detail{
   text-align: center;
   h5{
     margin-top: .5rem;
+=======
+.detail {
+  h5 {
+    margin-top: 0.5rem;
+>>>>>>> e1161924d3edc7861d19de107ef21ab5cff27bd5
   }
 }
 
@@ -46,6 +48,14 @@ main {
 
 .carousel {
   .carousel-inner {
+
+    .carousel-item {
+      img {
+        max-height: calc(100vh - 118px);
+        object-fit: cover;
+      }
+    }
+
     .carousel-caption {
       width: 40%;
       position: absolute;
@@ -139,6 +149,9 @@ section.news {
   .project_wrapper {
     display: flex;
     margin-top: 12px;
+    h2 {
+      font-size: 1.2rem;
+    }
     .img_side {
       float: left;
       display: block;
