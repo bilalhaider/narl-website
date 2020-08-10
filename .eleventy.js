@@ -11,6 +11,16 @@ module.exports = function (eleventyConfig) {
         return content;
     });
 
+    eleventyConfig.addCollection("peopleSorted", function (collectionApi) {
+
+        return collectionApi.getFilteredByTag("people")
+            .sort((a, b) => {
+                if (a.data.profile.sortOrder > b.data.profile.sortOrder) return 1;
+                if (a.data.profile.sortOrder < b.data.profile.sortOrder) return -1;
+                return 0;
+            })
+    });
+
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.setTemplateFormats("html,liquid,md,jpg,png");
 

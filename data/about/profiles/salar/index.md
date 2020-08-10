@@ -1,11 +1,12 @@
 ---
-tags: ["people", "SeniorResearchAssociate"]
+tags: ["people"]
 layout: "profile"
 profile:
     name: Salar Saeed
     designation: Sr. Remote Sensing Analyst
     qualification: MS GIS, PUCIT, Lahore
     role: Senior Research Associate
+    sortOrder: 503
     email: salar.dogar@lums.edu.pk
     phone: 92 42 35608000 Ext. 3516
     picture: pic.jpg

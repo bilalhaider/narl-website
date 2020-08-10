@@ -6,96 +6,22 @@ layout: master.liquid
     <div class="container">
         <div class="row">
 
-            <div class="col-md-12 role">Principal Investigator</div>
-            {% for people in collections.PrincipalInvestigator %}
-            <div class="col-sm-12">
-                <div class="description">
-                    <a href="{{people.url}}">
-                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
-                        <h5>{{people.data.profile.name}}</h5>
-                        <p>{{people.data.profile.designation}}</p>
-                    </a>
+            {% for people in collections.peopleSorted %}
+            <div class="col-sm-3">
+                <!--  -->
+                <div class="card profile-card">
+                    <img src="{{people.url | url}}{{people.data.profile.picture}}" class="card-img-top" alt="{{people.data.profile.name}}'s Picture">
+                    <div class="card-body">
+                        <h6 class="card-title">{{people.data.profile.name}}</h6>
+                        <div class="card-text">
+                            <div>{{people.data.profile.designation}}</div>
+                            <div>{{people.data.profile.role}}</div>
+                        </div>
+                        <a class="see-more-link" href="{{people.url}}">See more</a>
+                    </div>
                 </div>
             </div>
             {% endfor %}
-
-            <div class="col-sm-12 role">Co-Principal Investigator</div>
-            {% for people in collections.CoPrincipalInvestigator %}
-            <div class="col-sm-12">
-                <div class="description">
-                    <a href="{{people.url}}">
-                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
-                        <h5>{{people.data.profile.name}}</h5>
-                        <p>{{people.data.profile.designation}}</p>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
-            <div class="col-sm-12 role">Business Development Managers</div>
-            {% for people in collections.BusinessDevelopmentManager %}
-            <div class="col-sm-12">
-                <div class="description">
-                    <a href="{{people.url}}">
-                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
-                        <h5>{{people.data.profile.name}}</h5>
-                        <p>{{people.data.profile.designation}}</p>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
-
-            <div class="col-sm-12 role">Team Leads</div>
-            {% for people in collections.TeamLead %}
-            <div class="col-sm-12">
-                <div class="description">
-                    <a href="{{people.url}}">
-                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
-                        <h5>{{people.data.profile.name}}</h5>
-                        <p>{{people.data.profile.designation}}</p>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
-
-            <div class="col-sm-12 role">Senior Research Associates</div>
-            {% for people in collections.SeniorResearchAssociate %}
-            <div class="col-sm-12">
-                <div class="description">
-                    <a href="{{people.url}}">
-                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
-                        <h5>{{people.data.profile.name}}</h5>
-                        <p>{{people.data.profile.designation}}</p>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
-
-            <div class="col-sm-12 role">Junior Research Assistants</div>
-            {% for people in collections.JuniorResearchAssistant %}
-            <div class="col-sm-12">
-                <div class="description">
-                    <a href="{{people.url}}">
-                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
-                        <h5>{{people.data.profile.name}}</h5>
-                        <p>{{people.data.profile.designation}}</p>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
-
-            <div class="col-sm-12 role">PhD Students</div>
-            {% for people in collections.PhDStudent %}
-            <div class="col-sm-12">
-                <div class="description">
-                    <a href="{{people.url}}">
-                        <img src="{{people.url | url}}{{people.data.profile.picture}}">
-                        <h5>{{people.data.profile.name}}</h5>
-                        <p>{{people.data.profile.designation}}</p>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
-
         </div>
     </div>
 </section>

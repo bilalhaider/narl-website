@@ -1,5 +1,5 @@
 ---
-tags: ["people", "CoPrincipalInvestigator"]
+tags: ["people"]
 layout: "profile"
 profile:
     name: Dr. Ahmed Kamal Nasir
@@ -7,6 +7,7 @@ profile:
     department: Department of Electrical Engineering, SBASSE, LUMS, Lahore
     qualification: PhD Electrical Engineering,  University of -Siegen, Germany
     role: Co-Principal Investigator
+    sortOrder: 200
     email: ahmad.kamal@lums.edu.pk
     phone: 92 42 35608000 Ext. 8486
     picture: pic.jpg
