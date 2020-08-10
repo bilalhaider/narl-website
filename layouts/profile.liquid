@@ -3,8 +3,8 @@ layout: "master"
 ---
 <section>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 detail">
+        <div class="row text-center">
+            <div class="col-6">
                 <img src="{{page.url | url}}{{profile.picture}}" />
                 <h5>{{profile.name}}</h5>
                 <p>{{profile.role}}</p>
@@ -12,12 +12,26 @@ layout: "master"
                 {{profile.department}}<br>
                 {{profile.qualification}}<br>
                 {{profile.email}}<br>
-                {{profile.phone}}<br><br>
-                {{profile.bio}}
+                {{profile.phone}}
+            </div>
+            <div class="col-6">
                 <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="bilalhaider11">
-	<a class="LI-simple-link" href='https://pk.linkedin.com/in/bilalhaider11?trk=profile-badge'>Bilal Haider</a>
-</div>
+                    <a class="LI-simple-link" href='https://pk.linkedin.com/in/bilalhaider11?trk=profile-badge'></a>
+                </div>
             </div>
         </div>
+        {% if profile.bio %}
+        <div class="row">
+            <div class="col-12">
+                <div class="separator"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-justify">
+                <h5>Bio:</h5>
+                {{profile.bio}}
+            </div>
+        </div>
+        {% endif %}
     </div>
-<section>
+    <section>
