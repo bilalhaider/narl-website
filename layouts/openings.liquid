@@ -6,8 +6,12 @@ layout: master
     <div class="container">
         <div class="row">
             <div class="col-sm-12 openings">
-                <h1>Openings</h1>
-                {{content}}
+
+                {% for opening in collections.openings %}
+                <h2>{{opening.data.title}}</h2>
+                {{opening.templateContent}}
+                {% endfor %}
+
             </div>
         </div>
     </div>
