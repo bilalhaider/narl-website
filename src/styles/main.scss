@@ -1,8 +1,22 @@
 $min-height: calc(100vh - 186px);
 
-.navbar .left_menu {
-  margin-left: auto;
+header nav.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  .left_menu {
+    margin-left: auto;
+  }
+
+  .navbar-brand{
+    padding: 0px;
+
+    .logo {
+      height: 85px;
+    }
+  }
 }
+
 main {
   min-height: $min-height;
 }
@@ -185,13 +199,5 @@ section.news {
     h6 {
       margin-bottom: 1rem;
     }
-  }
-}
-
-// Media Query
-
-@media only screen and (max-width: 600px) {
-  .logo {
-    width: 75%;
   }
 }
