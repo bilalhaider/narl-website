@@ -6,12 +6,25 @@ layout: master
     <div class="container">
         <div class="row">
             <div class="col-sm-12 openings">
+                <div class="accordion" id="openingsAccordion">
 
-                {% for opening in collections.openings %}
-                <h2>{{opening.data.title}}</h2>
-                {{opening.templateContent}}
-                {% endfor %}
+                    {% for opening in collections.openings %}
+                    <div class="card">
+                        <div class="card-header" id="heading{{opening.fileSlug}}">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapse{{opening.fileSlug}}" aria-expanded="true" aria-controls="collapse{{opening.fileSlug}}">
+                                {{opening.data.title}}
+                            </h5>
+                        </div>
 
+                        <div id="collapse{{opening.fileSlug}}" class="collapse" aria-labelledby="heading{{opening.fileSlug}}">
+                            <div class="card-body">
+                                {{opening.templateContent}}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
             </div>
         </div>
     </div>

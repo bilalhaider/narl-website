@@ -171,6 +171,23 @@ section.news {
   }
 }
 
+.openings {
+  .card + .card {
+    margin-top: 1rem;
+  }
+
+  .card .card-body {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 // Media Query
 
 @media only screen and (max-width: 600px) {
