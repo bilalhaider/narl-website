@@ -1,7 +1,6 @@
 ---
 title: Reliable Crop Monitoring
 tags: researchthemes
-date: 2020-01-03
 image: main.jpg
 layout: theme.liquid
 themekey: crop-monitoring

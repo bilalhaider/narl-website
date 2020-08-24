@@ -1,7 +1,6 @@
 ---
 title: Low Environment Footprint
 tags: researchthemes
-date: 2020-01-03
 image: main.jpg
 layout: theme.liquid
 themekey: environment-footprint
