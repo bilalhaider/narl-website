@@ -8,7 +8,7 @@ header nav.navbar {
     margin-left: auto;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     padding: 0px;
 
     .logo {
@@ -92,6 +92,42 @@ section {
   }
 }
 
+section.researchthemes {
+  
+  .theme {
+
+    & + .theme {
+      margin-top: 35px;
+    }
+
+    margin-bottom: 35px;
+  }
+
+  .project_wrapper {
+    display: flex;
+
+    & + .project_wrapper {
+      margin-top: 12px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+    .img_side {
+      float: left;
+      display: block;
+      margin-right: 15px;
+      .project_img {
+        width: 200px;
+      }
+    }
+    .project_detail {
+      display: block;
+      float: right;
+    }
+  }
+}
+
 section.affiliation {
   border-top: 3px solid #e8e8e8;
   .crs-img {
@@ -123,36 +159,6 @@ section.news {
 
 .gray-section {
   background: #f5f5f5;
-  .crop_monitoring_sec {
-    margin-bottom: 5%;
-  }
-
-  .environment_sec {
-    margin: 5% 0px;
-  }
-
-  .water_sec {
-    margin-top: 5%;
-  }
-  .project_wrapper {
-    display: flex;
-    margin-top: 12px;
-    h2 {
-      font-size: 1.2rem;
-    }
-    .img_side {
-      float: left;
-      display: block;
-      margin-right: 15px;
-      .project_img {
-        width: 200px;
-      }
-    }
-    .project_detail {
-      display: block;
-      float: right;
-    }
-  }
 }
 
 .footer-section {

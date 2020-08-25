@@ -1,5 +1,6 @@
 ---
 title: Forest Asset Management
+tags: projects
 themes:
     - environment-footprint
 ---

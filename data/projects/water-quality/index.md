@@ -1,5 +1,6 @@
 ---
 title: Water Quality Monitoring
+tags: projects
 themes:
     - environment-footprint
 ---

@@ -1,5 +1,6 @@
 ---
 title: Crop Variable Rate Application
+tags: projects
 themes:
     - crop-monitoring
 ---

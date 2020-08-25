@@ -1,5 +1,6 @@
 ---
 title: Trash Monitoring
+tags: projects
 themes:
     - environment-footprint
 ---

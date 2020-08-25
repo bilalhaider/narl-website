@@ -11,6 +11,13 @@ module.exports = function (eleventyConfig) {
         return content;
     });
 
+    eleventyConfig.addFilter('themeFilter', function (collection, theme) {
+
+        if (!theme) return collection;
+        const filtered = collection.filter(item => (item.data.themes || []).includes(theme));
+        return filtered;
+    });
+
     eleventyConfig.addCollection("peopleSorted", function (collectionApi) {
 
         return collectionApi.getFilteredByTag("people")
