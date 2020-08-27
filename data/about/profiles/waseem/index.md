@@ -4,10 +4,12 @@ layout: "profile"
 profile:
     name: Muhammad Waseem
     designation: Jr. Software Engineer
-    qualification: MS Computer Science, Namal,Mianwali
     role: Junior Research Assistant
+    linkedinurl: https://www.linkedin.com/in/muhammad-waseem-50227b165/
     sortOrder: 605
-    email: muhammad.w@lums.edu.pk
-    phone: 92 42 35608000 Ext. 3307
     picture: pic.jpg
 ---
+
+Qualification: MS Computer Science, Namal,Mianwali  
+Email: muhammad.w@lums.edu.pk  
+Contact No.: 92 42 35608000 Ext. 3307  

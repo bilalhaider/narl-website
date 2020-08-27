@@ -4,10 +4,12 @@ layout: "profile"
 profile:
     name: Mohammad Maaz
     designation: Sr. Year Student
-    qualification: Undergrad Student
     role: Junior Research Assistant
+    linkedinurl: https://linkedin.com/in/fezancs/
     sortOrder: 603
-    email: 20100068@lums.edu.pk
-    phone: 92 42 35608000 Ext. 3308
     picture: pic.jpg
 ---
+
+Qualification: Undergrad Student  
+Email: 20100068@lums.edu.pk  
+Contact No.: 92 42 35608000 Ext. 3308
