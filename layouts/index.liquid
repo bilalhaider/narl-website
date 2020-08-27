@@ -51,75 +51,7 @@ layout: master.liquid
             </div>
         </div>
 
-        {% for researchtheme in collections.researchthemes %}
-        <div class="row theme">
-
-            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-            {% if thecycle == 'odd' %}
-
-            <div class="col-sm-4 themeinfo">
-                <div class="card">
-                    <img src="{{researchtheme.url | url}}{{researchtheme.data.image}}" class="card-img-top card-img" alt=" ...">
-                    <div class="card-body">
-                        <h4 class="card-title">{{researchtheme.data.title}}</h4>
-                        <p class="card-text">{% shortened researchtheme.templateContent %} <a href="{{researchtheme.url | url}}">Explore</a></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-sm-8 projects">
-
-                {% assign filteredprojects = collections.projects | themeFilter:researchtheme.data.themekey %}
-                {% for proj in filteredprojects %}
-                <div class="project_wrapper">
-                    <div class="img_side">
-                        <img src="{{researchtheme.url | url}}/{{researchtheme.data.image}}" class="project_img">
-                    </div>
-                    <div class="project_detail">
-                        <h2>{{proj.data.title}}</h2>
-                        <p>{% shortened proj.templateContent %} <a href="{{proj.url | url}}">See project details</a></p>
-                    </div>
-                </div>
-                {% endfor %}
-
-            </div>
-
-            {% else %}
-
-            <div class="col-sm-8 projects">
-
-                {% assign filteredprojects = collections.projects | themeFilter:researchtheme.data.themekey %}
-                {% for proj in filteredprojects %}
-                <div class="project_wrapper">
-                    <div class="img_side">
-                        <img src="{{researchtheme.url | url}}/{{researchtheme.data.image}}" class="project_img">
-                    </div>
-                    <div class="project_detail">
-                        <h2>{{proj.data.title}}</h2>
-                        <p>{% shortened proj.templateContent %} <a href="{{proj.url | url}}">See project details</a></p>
-                    </div>
-                </div>
-                {% endfor %}
-                
-            </div>
-            
-            <div class="col-sm-4 themeinfo">
-                <div class="card">
-                    <img src="{{researchtheme.url | url}}{{researchtheme.data.image}}" class="card-img-top card-img" alt=" ...">
-                    <div class="card-body">
-                        <h4 class="card-title">{{researchtheme.data.title}}</h4>
-                        <p class="card-text">{% shortened researchtheme.templateContent %} <a href="{{researchtheme.url | url}}">Explore</a></p>
-                    </div>
-                </div>
-            </div>
-            
-            {% endif %}
-
-            {% unless forloop.last %}
-            <div class="separator"></div>
-            {% endunless %}
-        </div>
-        {% endfor %}
+        {% include research-themes-partial %}
 
     </div>
 </section>
