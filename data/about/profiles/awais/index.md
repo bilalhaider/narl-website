@@ -14,4 +14,4 @@ Department: Department of Computer Science, SBASSE, LUMS, Lahore
 Qualification: PhD Computer Science, Imperial College London, UK  
 Email: awais@lums.edu.pk  
 Contact No.: 92 42 35608000 Ext. 8188  
-Link: https://lums.edu.pk/lums_employee/516
+Link: https://lums.edu.pk/lums_employee/516  

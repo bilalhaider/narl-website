@@ -15,4 +15,4 @@ Department: Department of Electrical Engineering, SBASSE, LUMS, Lahore
 Qualification: PhD Electrical Engineering, Georgia Institute of Technology, USA  
 Email: abubakr@lums.edu.pk  
 Contact No.: 924235608000 Ext. 8132  
-Link: https://lums.edu.pk/lums_employee/2126
+Link: https://lums.edu.pk/lums_employee/2126  

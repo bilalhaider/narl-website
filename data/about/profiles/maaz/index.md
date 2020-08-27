@@ -12,4 +12,4 @@ profile:
 
 Qualification: Undergrad Student  
 Email: 20100068@lums.edu.pk  
-Contact No.: 92 42 35608000 Ext. 3308
+Contact No.: 92 42 35608000 Ext. 3308  

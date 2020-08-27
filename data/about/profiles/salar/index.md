@@ -11,4 +11,4 @@ profile:
 
 Qualification: MS GIS, PUCIT, Lahore  
 Email: salar.dogar@lums.edu.pk  
-Contact No.: 92 42 35608000 Ext. 3516
+Contact No.: 92 42 35608000 Ext. 3516  
