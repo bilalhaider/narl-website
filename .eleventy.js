@@ -34,7 +34,7 @@ module.exports = function (eleventyConfig) {
     return {
         dir: {
             input: 'data',
-            includes: '',
+            includes: '../layouts/includes',
             layouts: '../layouts'
         }
     };

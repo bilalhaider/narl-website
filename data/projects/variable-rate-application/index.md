@@ -1,6 +1,7 @@
 ---
 title: Crop Acreage Estimation and Crop Reporting
 tags: projects
+layout: project
 themes:
     - crop-monitoring
 ---

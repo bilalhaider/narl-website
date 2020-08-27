@@ -1,6 +1,7 @@
 ---
 title: Crop Disease Detection
 tags: projects
+layout: project
 themes:
     - crop-monitoring
 ---

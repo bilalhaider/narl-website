@@ -1,6 +1,7 @@
 ---
 title: High Resolution Maps of Water Resources and Agriculture
 tags: projects
+layout: project
 themes:
     - water-efficiency
 ---
