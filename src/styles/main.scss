@@ -33,6 +33,12 @@ main {
   }
 }
 
+section.profile.page {
+  .profile-pic {
+    margin-bottom: 10px;
+  }
+}
+
 // PeopleList page style End
 
 .carousel {
@@ -93,9 +99,7 @@ section {
 }
 
 section.researchthemes {
-  
   .theme {
-
     & + .theme {
       margin-top: 35px;
     }

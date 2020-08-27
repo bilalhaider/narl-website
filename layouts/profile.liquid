@@ -1,15 +1,16 @@
 ---
 layout: "master"
 ---
-<section>
+<section class="profile page">
     <div class="container">
         <div class="row text-center">
+
             {% if profile.linkedinurl %}
             <div class="col-12 col-md-4 offset-md-2">
             {% else %}
             <div class="col-12">
             {% endif %}
-                <img src="{{page.url | url}}{{profile.picture}}" />
+                <img class="profile-pic" src="{{page.url | url}}{{profile.picture}}" />
                 <h5>{{profile.name}}</h5>
                 <p>{{profile.role}}</p>
                 {{profile.designation}}<br>
