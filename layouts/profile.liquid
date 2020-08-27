@@ -4,21 +4,26 @@ layout: "master"
 <section>
     <div class="container">
         <div class="row text-center">
+            {% if profile.linkedinurl %}
             <div class="col-12 col-md-4 offset-md-2">
+            {% else %}
+            <div class="col-12">
+            {% endif %}
                 <img src="{{page.url | url}}{{profile.picture}}" />
                 <h5>{{profile.name}}</h5>
                 <p>{{profile.role}}</p>
                 {{profile.designation}}<br>
-                {{profile.department}}<br>
-                {{profile.qualification}}<br>
-                {{profile.email}}<br>
-                {{profile.phone}}
+                {{content}}
             </div>
+
+            {% if profile.linkedinurl %}
             <div class="col-12 col-md-4">
-                <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="bilalhaider11">
-                    <a class="LI-simple-link" href='https://pk.linkedin.com/in/bilalhaider11?trk=profile-badge'></a>
+                <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light">
+                    <a class="LI-simple-link" href='{{profile.linkedinurl}}?trk=profile-badge'></a>
                 </div>
             </div>
+            {% endif %}
+
         </div>
         {% if profile.bio %}
         <div class="row">
