@@ -4,10 +4,12 @@ layout: "profile"
 profile:
     name: Habiba Saim
     designation: Sr. Software Engineer
-    qualification: MS CS, LUMS, Lahore
     role: Senior Research Associate
+    linkedinurl: https://www.linkedin.com/in/habiba-saim-4a900310
     sortOrder: 500
-    email: habiba.saim@lums.edu.pk
-    phone: 92 42 35608000 Ext. 3307
     picture: pic.jpg
 ---
+
+Qualification: MS CS, LUMS, Lahore  
+Email: habiba.saim@lums.edu.pk  
+Contact No.: 92 42 35608000 Ext. 3307  
