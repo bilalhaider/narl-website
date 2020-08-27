@@ -1,0 +1,31 @@
+---
+layout: master
+---
+
+<section class="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="sec-title">
+                    <h2>Projects</h2>
+                    <div class="separator"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for proj in collections.projects %}
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{proj.data.title}}</h5>
+                        <p class="card-text">{% shortened proj.templateContent %}
+                        </p>
+                        <a href="{{ proj.url | url }}">Read more</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
