@@ -5,10 +5,18 @@ layout: master
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 publications">
-                <h1>Publications</h1>
-                {{content}}
-            </div>
+    <div class="col-sm-12 publications">
+        <div class="accordion" id="publicationAccordion"> {% for publication in collections.publications %} <div class="card">
+                <div class="card-header" id="heading{{publication.fileSlug}}">
+                    <h5 class="mb-0" data-toggle="collapse" data-target="#collapse{{publication.fileSlug}}" aria-expanded="true" aria-controls="collapse{{publication.fileSlug}}"> {{publication.data.title}} </h5>
+                </div>
+                <div id="collapse{{publication.fileSlug}}" class="collapse" aria-labelledby="heading{{publication.fileSlug}}">
+                    <div class="card-body"> {{publication.templateContent}} 
+                        <strong>{{publication.name}}</strong>
+                    </div>
+                </div>
+            </div> {% endfor %} </div>
+    </div>
         </div>
     </div>
 </section>
