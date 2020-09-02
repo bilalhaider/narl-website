@@ -7,7 +7,6 @@ themes:
 sponsor: Punjab Irrigation Department, Nestle
 duration: 3 Years
 concept: This is Dummy text for Concept
-members: Name1, Name2, Name3
 
 ---
 
