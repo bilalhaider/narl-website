@@ -11,8 +11,31 @@ layout: master
                     <h6> {{publication.data.title}}</h6>
                 </div>
 <div class="col-12">
+    {% if publication.data.authors.authorOne %}
     <div class="chip">
-        <img src="/assets/images/avatar.png" alt="Person" width="96" height="96"> {{publication.data.name}} </div>
+        <img src="/assets/images/avatar.png" alt="Person" width="96" height="96"> {{publication.data.authors.authorOne}}
+     </div>
+    {% endif %}
+    {% if publication.data.authors.authorTwo %}
+    <div class="chip">
+        <img src="/assets/images/avatar.png" alt="Person" width="96" height="96"> {{publication.data.authors.authorTwo}} 
+    </div>
+    {% endif %}
+    {% if publication.data.authors.authorThree %}
+    <div class="chip">
+        <img src="/assets/images/avatar.png" alt="Person" width="96" height="96"> {{publication.data.authors.authorThree}} 
+    </div>
+    {% endif %}
+    {% if publication.data.authors.authorFour %}
+    <div class="chip">
+        <img src="/assets/images/avatar.png" alt="Person" width="96" height="96"> {{publication.data.authors.authorFour}}
+     </div>
+    {% endif %}
+    {% if publication.data.authors.authorFour %}
+    <div class="chip">
+        <img src="/assets/images/avatar.png" alt="Person" width="96" height="96"> {{publication.data.authors.authorlast}} 
+    </div>
+    {% endif %}
 </div>
 
 <div class="col-12">
@@ -22,6 +45,7 @@ layout: master
                     <br />
                     <div class="separator"></div>
                     <br /> 
+                    <br />
                 {% endfor %} 
             </div>
         </div>
