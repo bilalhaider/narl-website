@@ -9,7 +9,7 @@
     "watch:eleventy": "npx eleventy --serve",
     "watch:sass": "npm run sass -- --watch",
     "watch": "npm-run-all clean sass --parallel watch:*",
-    "build": "npm run sass -- --no-source-map && npx eleventy --pathprefix=narlweb"
+    "build": "npm run sass -- --no-source-map && npx eleventy"
   },
   "repository": {
     "type": "git",
