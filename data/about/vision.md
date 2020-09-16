@@ -2,6 +2,11 @@
 layout: basic.liquid
 ---
 
-## Vision
-            
-National Agricultural Robotics Lab at LUMS, is part of theNational Center of Robotics and Automation (NCRA) andspearheads research and development of technology to combat challenges in food security, climate change and water scarcity.
+## MISSION STATEMENT
+
+National Agricultural Robotics Lab (NARL), part of the National Centre of Robotics and Automation (NCRA) consortium, recognizes the urgency of responding to eminent threats arising from climate change and resource mismanagement. Therefore, NARL aims to realize the potential of robotics, GIS, IoT and artificial intelligence to improve management and monitoring of Pakistan’s valuable natural resources. Through partnerships with government bodies, industry, NGOs and members of the scientific community, researchers at NARL plan to increase farm profitability, reduce negative impacts of agricultural activity, safeguard forest resources and optimize water efficiency by promoting data driven decision making. As a result, NARL is conducting state of the art research which will also lead to capacity building of all stakeholders from small scale agricultural farmers to the policy makers as well as the scientific community.
+
+## HISTORY
+NARL at LUMS comprises of top researchers from Electrical Engineering and Computer Science who have been leading the national scene on agricultural robotics and knowledge systems for the past 10 years. The Center for Water Informatics & Technology (WIT) at LUMS headed by Dr Abubakr Muhammad (PI), is a pioneer in the use of advanced sensor networks for monitoring large-scale irrigation networks. Extensive field studies by WIT center spanned over several years, have shown the way to Dept of Irrigation, Govt of Punjab and industries such as Nestle-Pakistan on how to deploy water flow monitoring solutions in large canals and small watercourses.  The Precision Agriculture & Forestry research cluster at LUMS, headed by Dr Mian Muhammad Awais and Dr Ahmad Kamal (Co- PIs), has done pioneering work in demonstrating UAV based crop monitoring technology. The research has been deployed to commercial scale with Dept. of Agriculture, Govt of Punjab and industry partners. In a first-of-its kind effort in Pakistan, the Computer Vision Lab headed by Dr Murtaza Taj (Co-PI) has performed digital preservation of UNESCO heritage sites across Pakistan using 3D laser sensing technology.
+
+These research groups have now joined their expertise to revolutionize agricultural practices and national resource management in Pakistan under the umbrella of NARL. With a team of dedicated researchers and graduate and undergraduate students they are paving the way for sustainability to be at the center of all natural asset decision making in Pakistan by adding transparency and accountability through cutting-edge technology.
