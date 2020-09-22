@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: fezan
 profile:
     name: Fezan Rasool
     designation: Deep Learning Engineer

@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: abubakr
 profile:
     name: Dr. Abubakr Muhammad
     designation: Associate Professor

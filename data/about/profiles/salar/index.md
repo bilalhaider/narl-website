@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: salar
 profile:
     name: Salar Saeed
     designation: Sr. Remote Sensing Analyst

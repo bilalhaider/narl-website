@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: waseem
 profile:
     name: Muhammad Waseem
     designation: Jr. Software Engineer

@@ -18,6 +18,13 @@ module.exports = function (eleventyConfig) {
         return filtered;
     });
 
+    eleventyConfig.addFilter('profileFilter', function (collection, profileKey) {
+
+        if (!profileKey) return collection;
+        const found = collection.find(item => item.data.key == profileKey);
+        return found;
+    });
+
     eleventyConfig.addCollection("peopleSorted", function (collectionApi) {
 
         return collectionApi.getFilteredByTag("people")
