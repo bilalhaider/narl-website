@@ -8,18 +8,21 @@ layout: master.liquid
 
             {% for people in collections.peopleSorted %}
             <div class="col-sm-3">
-                <!--  -->
-                <div class="card profile-card">
-                    <img src="{{people.url | url}}{{people.data.profile.picture}}" class="card-img-top" alt="{{people.data.profile.name}}'s Picture">
-                    <div class="card-body">
-                        <h6 class="card-title">{{people.data.profile.name}}</h6>
-                        <div class="card-text">
-                            <div>{{people.data.profile.designation}}</div>
-                            <div>{{people.data.profile.role}}</div>
-                        </div>
-                        <a class="see-more-link" href="{{people.url | url}}">See more</a>
+                <div class="main_wrapper">
+                    <div class="profile_list">
+                        <a class="profile_link" href="{{people.url | url}}">
+                            <img src="{{people.url | url}}{{people.data.profile.picture}}" class="profile_img" alt="{{people.data.profile.name}}'s Picture">
+                            <div class="profile_data">
+                                <h6 class="name">{{people.data.profile.name}}</h6>
+                                <div>{{people.data.profile.designation}}</div>
+                                <div>{{people.data.profile.role}}</div>
+                                <!-- <a class="see-more-link" >See more</a> -->
+                            </div>
+                        </a>
                     </div>
                 </div>
+                <!--  -->
+                
             </div>
             {% endfor %}
         </div>
