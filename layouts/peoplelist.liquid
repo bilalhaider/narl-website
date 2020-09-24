@@ -14,8 +14,10 @@ layout: master.liquid
                             <img src="{{people.url | url}}{{people.data.profile.picture}}" class="profile_img" alt="{{people.data.profile.name}}'s Picture">
                             <div class="profile_data">
                                 <h6 class="name">{{people.data.profile.name}}</h6>
-                                <div>{{people.data.profile.designation}}</div>
-                                <div>{{people.data.profile.role}}</div>
+                                <div class="extra_data">
+                                    <div>{{people.data.profile.designation}}</div>
+                                    <div>{{people.data.profile.role}}</div>
+                                </div>
                                 <!-- <a class="see-more-link" >See more</a> -->
                             </div>
                         </a>

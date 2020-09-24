@@ -27,19 +27,22 @@ main {
     margin-bottom: 25px;
     border: 1px solid gray;
     overflow: hidden;
+    position: relative;
     border-radius: 3px;
 }
 .profile_list {
-  position: relative;
   transition: transform 1s;
   img.profile_img {
     width: 100%;
 }
   .profile_data {
     position: absolute;
-    bottom: -24px;
+    bottom: 0px;
     color: white;
     left: 5px;
+    .extra_data{
+      display: none;
+    }
   }
 }
 .profile_list:hover  {
@@ -52,6 +55,11 @@ main {
     padding-left: 20px;
     width: 100%;
     background: #1e282491;
+    transition: background 1s;
+}
+
+.profile_link:hover > .profile_data > .extra_data  {
+ display: inline;
 }
 
 // .profile-card {
