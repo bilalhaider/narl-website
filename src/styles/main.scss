@@ -22,25 +22,55 @@ main {
 }
 
 // PeopleList page style start
-
-.profile-card {
-  margin-top: 30px;
-
-  .see-more-link {
-    text-align: right;
-    display: inline-block;
+.main_wrapper {
+    height: 250px;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.profile_list {
+  position: relative;
+  transition: transform 1s;
+  img.profile_img {
     width: 100%;
+}
+  .profile_data {
+    position: absolute;
+    bottom: -24px;
+    color: white;
+    left: 5px;
   }
+}
+.profile_list:hover  {
+  transform: scale(1.1);
 }
 
-section.profile.page {
-  .profile-pic {
-    margin-bottom: 10px;
-  }
+.profile_link:hover > .profile_data {
+   top: 10px;
+    padding-top: 42px;
+    padding-left: 20px;
+    width: 100%;
+    background: #1e282491;
 }
+
+// .profile-card {
+//   margin-top: 30px;
+
+//   .see-more-link {
+//     text-align: right;
+//     display: inline-block;
+//     width: 100%;
+//   }
+// }
+
+// section.profile.page {
+//   .profile-pic {
+//     margin-bottom: 10px;
+//   }
+// }
 
 // PeopleList page style End
-
 
 // Project Image Media Style Start
 
@@ -67,7 +97,7 @@ div.desc {
 
 // Project Image Media Style End
 
-// Contact chip style start 
+// Contact chip style start
 
 .chip {
   display: inline-block;
@@ -88,7 +118,6 @@ div.desc {
 }
 
 // contact chip style end
-
 
 .carousel {
   .carousel-inner {
