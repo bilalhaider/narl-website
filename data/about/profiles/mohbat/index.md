@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: mohbat
 profile:
     name: Mohbat
     designation: Sr. Machine Learning Engineer

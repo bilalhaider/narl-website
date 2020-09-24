@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: abbas
 profile:
     name: Syed Abbas
     role: PhD Student

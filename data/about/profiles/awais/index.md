@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: awais
 profile:
     name: Dr. Mian Muhammad Awais
     designation: Professor

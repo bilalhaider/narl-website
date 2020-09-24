@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: arehman
 profile:
     name: Abdul Rehman
     designation: Jr. Electronics Engineer

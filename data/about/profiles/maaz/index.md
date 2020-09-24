@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: maaz
 profile:
     name: Mohammad Maaz
     designation: Sr. Year Student

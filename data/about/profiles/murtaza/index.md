@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: murtaza
 profile:
     name: Dr. Murtaza Taj
     designation: Assistant Professor

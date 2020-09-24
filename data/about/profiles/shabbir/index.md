@@ -1,6 +1,7 @@
 ---
 tags: ["people"]
 layout: "profile"
+key: shabbir
 profile:
     name: M. Shabbir Hasan
     role: Team Lead
