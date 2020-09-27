@@ -24,7 +24,7 @@
             </div>
             <div class="project_detail">
                 <h2>{{proj.data.title}}</h2>
-                <p>{% shortened proj.templateContent %} <a href="{{proj.url | url}}">See project details</a></p>
+                <p>{% shortened proj.data.concept %} <a href="{{proj.url | url}}">See project details</a></p>
             </div>
         </div>
         {% endfor %}
@@ -43,7 +43,7 @@
             </div>
             <div class="project_detail">
                 <h2>{{proj.data.title}}</h2>
-                <p>{% shortened proj.templateContent %} <a href="{{proj.url | url}}">See project details</a></p>
+                <p>{% shortened proj.data.concept %} <a href="{{proj.url | url}}">See project details</a></p>
             </div>
         </div>
         {% endfor %}
